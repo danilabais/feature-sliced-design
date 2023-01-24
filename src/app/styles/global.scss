@@ -1,0 +1,23 @@
+@import url(./fonts.scss);
+@import url(normalize.css);
+@import url(./vars.scss);
+
+:root {
+    font-size: 10px;
+}
+
+input {
+    outline: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'sf';
+    font-size: var(--fs-normal);
+    background: var(--color-bg);
+    color: var(--color-white);
+}
+
